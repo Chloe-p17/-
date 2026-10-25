@@ -6,5 +6,9 @@
 - `p1.ipynb`：在VS Code使用 Python-numpy 提取并计算股票量化指标的代码（数据文件：demo.csv）。
 - `demo.csv`：测试用的数据样本文件，条数20。
 - 总结：在unittest测试环境，def定义，利用一个框架完成，最后【启动测试】
-
-
+- class
+-    def testXX(self):
+-        file_name='demo.csv'
+-        price,volume=np.loadtxt(fname=file_name,delimiter=',',usecols=( , ),unpack=True)
+-    print('XX={}'.format())
+  
