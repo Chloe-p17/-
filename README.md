@@ -2,7 +2,7 @@
 
 这是我的个人作品集，用来记录我学习量化交易的过程，以及思考。python,VS Code
 
-## Day1
+## P1
 
 - `p1.ipynb`： Python-numpy 提取并计算股票量化指标的代码（数据文件：demo.csv）。
 - `demo.csv`：测试用的数据样本文件，条数20。
@@ -13,7 +13,7 @@
 -        price,volume=np.loadtxt(fname=file_name,delimiter=',',usecols=( , ),unpack=True)
 -    print('XX={}'.format())
   
-## Day2
+## P2
 
 - p2.py:numpy 简单/指数移动平均线 卷积(数学)
 - `demo.csv`：测试用的数据样本文件，条数20
